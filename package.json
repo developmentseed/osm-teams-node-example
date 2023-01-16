@@ -9,14 +9,14 @@
     "start": "nodenv ."
   },
   "dependencies": {
-    "ejs": "^2.6.2",
+    "ejs": "^3.1.8",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
-    "jsonwebtoken": "^8.5.1",
-    "simple-oauth2": "^2.2.1"
+    "jsonwebtoken": "^9.0.0",
+    "simple-oauth2": "^2.2.1",
   },
   "engines": {
-    "node": "8.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/mapping-team-starter"
@@ -29,12 +29,9 @@
     "community"
   ],
   "devDependencies": {
-    "eslint": "^6.2.1",
-    "eslint-config-standard": "^14.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "node-env-run": "^3.0.2"
+    "eslint": "^8.32.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "node-env-run": "^3.0.2",
+    "prettier": "2.8.3"
   }
 }

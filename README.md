@@ -3,6 +3,7 @@
 This app demonstrates how to integrate with [mapping.team](https://dev.mapping.team), the index of OpenStreetMap teams. It uses Node.js/Express and [simple-oauth2](https://npmjs.com/simple-oauth2) to create the connection. `mapping.team` is an instance of the [OSM Teams API](https://github.com/developmentseed/osm-teams)
 
 ## Requirements
+
 - Node.js v8+
 
 ## App structure
@@ -45,6 +46,7 @@ To run this project you'll need a `CLIENT_ID` and `CLIENT_SECRET` from [mapping.
 5. The CLIENT_SECRET is the `client_secret`returned by the site
 
 ### Create the .env file
+
 Create a .env file following the structure in `.env.sample`
 
 ```sh
