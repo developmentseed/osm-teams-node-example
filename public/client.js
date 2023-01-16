@@ -14,7 +14,7 @@ if (accessToken) {
         return res.json();
       }
     })
-    .then((data) => {
+    .then(({ data }) => {
       if (data.length === 0) {
         teamList.innerHTML =
           'You don\'t have any teams yet! Go to <a href="https://dev.mapping.team">dev.mapping.team</a> to find a community.';
