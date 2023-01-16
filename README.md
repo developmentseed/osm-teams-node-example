@@ -35,9 +35,9 @@ Change directory into the repo:
 cd osm-teams-node-example
 ```
 
-### Create your app on [mapping.team](https://dev.mapping.team)
+### Create your app on [auth.mapping.team](https://auth.mapping.team)
 
-To run this project you'll need a `CLIENT_ID` and `CLIENT_SECRET` from [mapping.team](https://dev.mapping.team). There you'll log in using your OpenStreetMap account, then visit the [create client page](https://dev.mapping.team/teams/create) and follow these instructions:
+To run this project you'll need a `CLIENT_ID` and `CLIENT_SECRET` from [auth.mapping.team](https://auth.mapping.team). There you'll log in using your OpenStreetMap account, then visit the [create client page](https://auth.mapping.team/teams/create) and follow these instructions:
 
 1. Add a name for your app
 2. The callback will be `http://localhost:7171/callback` or whatever URL this example is running on
